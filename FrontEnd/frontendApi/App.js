@@ -353,7 +353,6 @@ const App = () => {
               >
                 Esta ação não poderá ser desfeita.
               </Text>
-
               <View style={styles.modalActions}>
                 <TouchableOpacity
                   style={[styles.modalButton, styles.cancelButton]}
