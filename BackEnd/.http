@@ -1,0 +1,33 @@
+### variables
+@baseUrl = http://localhost:3000
+
+### GET
+GET {{baseUrl}}
+
+## Roteamento por ID
+### GET users
+GET {{baseUrl}}/clientes/5
+
+### POST users
+POST {{baseUrl}}/clientes/
+Content-Type: application/json
+
+{
+    "Nome": "Novo",
+    "Idade": 30,
+    "UF": "SP"
+}
+
+## Delete users
+###
+DELETE {{baseUrl}}/clientes/5
+
+### PUT users
+PUT {{baseUrl}}/clientes/2
+Content-Type: application/json
+
+{
+    "Nome": "Mudado",
+    "Idade": 30,
+    "UF": "SP"
+}
